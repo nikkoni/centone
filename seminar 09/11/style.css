@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.banner {
+    display: grid;
+    grid-template:
+    "s s s s"
+    "b1 b2 b3 b4";
+    gap: 10px;
+}
+
+.slider {
+    grid-area: s;
+}
+.box1 {
+    grid-area: b1;
+}
+.box2 {
+    grid-area: b2;
+}
+.box3 {
+    grid-area: b3;
+}
+.box4 {
+    grid-area: b4;
+}
